@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Dyellen Morais | Micropigmentação e Design">
   <meta name="twitter:description" content="Micropigmentação e design de sobrancelhas, lábios e olhos. Veja resultados de antes e depois e agende pelo WhatsApp.">
   <meta name="twitter:image" content="https://dyellen.imaguiar.com.br/img/foto-01.webp">
-  <!-- CODEX: incluir aqui <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -52,41 +52,51 @@
   </script>
 </head>
 <body>
-  <!-- CODEX: skip-link, cabeçalho/navegação e botão fixo de agendar entram aqui -->
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <div class="wrap header-row">
+      <a class="brand" href="#inicio" aria-label="Dyellen Morais, início">Dyellen Morais<span>Micropigmentação &amp; Design</span></a>
+      <nav aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#curso">Curso</a><a href="#duvidas">Dúvidas</a></nav>
+    </div>
+  </header>
   <main id="conteudo">
-    <section id="inicio" aria-labelledby="titulo-inicio">
-      <!-- CODEX: h1 id="titulo-inicio" e abertura -->
+    <section class="hero" id="inicio" aria-labelledby="titulo-inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-copy"><p class="eyebrow">Beleza · Arte · Autoestima</p><h1 id="titulo-inicio">Sua beleza,<br>em cada <em>detalhe.</em></h1><p class="intro">Cada traço pensado para realçar o que já existe em você. Micropigmentação e design com Dyellen Morais.</p><div class="hero-actions"><a class="button" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio.">Agendar horário <span aria-hidden="true">↗</span></a><a class="text-link" href="#resultados">Conhecer o trabalho <span aria-hidden="true">↓</span></a></div></div>
+        <div class="hero-art" aria-hidden="true"><div class="art-top">Dyellen Morais</div><div class="monogram">D<span class="monogram-star">✧</span></div><div class="art-bottom">A beleza está nos detalhes.</div></div>
+      </div>
+      <div class="wrap hero-index"><span>01 / Sobrancelhas</span><span>02 / Lábios</span><span>03 / Olhos</span></div>
     </section>
-
-    <section id="sobre" aria-labelledby="titulo-sobre">
-      <!-- CODEX: h2 id="titulo-sobre" -->
+    <section class="section about" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="wrap about-grid"><div><p class="eyebrow">Sobre Dyellen</p><h2 id="titulo-sobre">Arte que encontra<br><em>a sua essência.</em></h2></div><div class="about-copy"><blockquote>“Minha arte é devolver o brilho que já existe em você.”<cite>Dyellen Morais</cite></blockquote><p>Micropigmentação e design de sobrancelhas, lábios e olhos. O trabalho de Dyellen aproxima beleza, arte e autoestima.</p><p>Além dos atendimentos, o Curso VIP é voltado à formação de profissionais.</p><a class="text-link" href="https://www.instagram.com/dyellenmorais/">Acompanhar no Instagram <span aria-hidden="true">↗</span></a></div></div>
     </section>
-
-    <section id="servicos" aria-labelledby="titulo-servicos">
-      <!-- CODEX: h2 id="titulo-servicos" (sobrancelhas, lábios, olhos) -->
+    <section class="section services" id="servicos" aria-labelledby="titulo-servicos">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">Serviços</p><h2 id="titulo-servicos">Detalhes que <em>expressam você.</em></h2></div><p>Conheça as áreas de atendimento de Dyellen Morais.</p></div><div class="service-grid">
+        <article class="service"><span class="service-number" aria-hidden="true">01</span><h3>Sobrancelhas</h3><p>Design e micropigmentação de sobrancelhas.</p><a class="text-link" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." aria-label="Agendar horário para sobrancelhas">Agendar horário <span aria-hidden="true">↗</span></a></article>
+        <article class="service"><span class="service-number" aria-hidden="true">02</span><h3>Lábios</h3><p>Revitalização e correção de cor e contorno dos lábios.</p><a class="text-link" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." aria-label="Agendar horário para lábios">Agendar horário <span aria-hidden="true">↗</span></a></article>
+        <article class="service"><span class="service-number" aria-hidden="true">03</span><h3>Olhos</h3><p>Serviço presente no perfil de Dyellen. Converse pelo WhatsApp para saber mais.</p><a class="text-link" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." aria-label="Conversar sobre o serviço de olhos">Conversar com Dyellen <span aria-hidden="true">↗</span></a></article>
+      </div></div>
     </section>
-
-    <section id="resultados" aria-labelledby="titulo-resultados">
-      <!-- CODEX: h2 id="titulo-resultados"; manter width/height/alt das imagens abaixo -->
-      <figure>
-        <img src="img/foto-01.webp" width="1003" height="1200" alt="Antes e depois de sobrancelha com micropigmentação: acima, sobrancelha rala e clara; abaixo, sobrancelha preenchida fio a fio, de acabamento natural, sobre um olho verde.">
-      </figure>
-      <figure>
-        <img src="img/foto-02.webp" width="1012" height="1200" loading="lazy" decoding="async" alt="Antes e depois de lábios com micropigmentação: acima, lábios com cor irregular e pouca definição; abaixo, lábios com cor vermelha uniforme e contorno definido.">
-      </figure>
-      <figure>
-        <img src="img/foto-03.webp" width="1200" height="1200" loading="lazy" decoding="async" alt="Antes e depois de design de sobrancelhas com micropigmentação: acima, sobrancelhas irregulares e com falhas; abaixo, sobrancelhas preenchidas, alinhadas e harmonizadas, sobre olhos azul-esverdeados.">
-      </figure>
+    <section class="section results" id="resultados" aria-labelledby="titulo-resultados">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">O trabalho de perto</p><h2 id="titulo-resultados">Traços, cores <em>e detalhes.</em></h2></div><p>Registros de antes e depois compartilhados no perfil de Dyellen.</p></div><div class="result-grid">
+        <figure><img loading="lazy" decoding="async" src="img/foto-01.webp" width="1003" height="1200" alt="Antes e depois de sobrancelha com micropigmentação: acima, sobrancelha rala e clara; abaixo, sobrancelha preenchida fio a fio, de acabamento natural, sobre um olho verde."><figcaption><span>Sobrancelhas</span><span>01</span></figcaption></figure>
+        <figure><img src="img/foto-02.webp" width="1012" height="1200" loading="lazy" decoding="async" alt="Antes e depois de lábios com micropigmentação: acima, lábios com cor irregular e pouca definição; abaixo, lábios com cor vermelha uniforme e contorno definido."><figcaption><span>Lábios</span><span>02</span></figcaption></figure>
+        <figure><img src="img/foto-03.webp" width="1200" height="1200" loading="lazy" decoding="async" alt="Antes e depois de design de sobrancelhas com micropigmentação: acima, sobrancelhas irregulares e com falhas; abaixo, sobrancelhas preenchidas, alinhadas e harmonizadas, sobre olhos azul-esverdeados."><figcaption><span>Sobrancelhas</span><span>03</span></figcaption></figure>
+      </div><a class="text-link gallery-link" href="https://www.instagram.com/dyellenmorais/">Mais trabalhos em @dyellenmorais <span aria-hidden="true">↗</span></a></div>
     </section>
-
-    <section id="curso" aria-labelledby="titulo-curso">
-      <!-- CODEX: h2 id="titulo-curso" (Curso VIP, botão de WhatsApp do curso) -->
+    <section class="section course" id="curso" aria-labelledby="titulo-curso">
+      <div class="wrap course-grid"><div class="course-label"><span aria-hidden="true">D.</span><p>Arte também<br>se compartilha.</p></div><div class="course-copy"><p class="eyebrow">Formação de profissionais</p><h2 id="titulo-curso">Seu próximo capítulo.<br><em>Curso VIP.</em></h2><p>Conheça o Curso VIP de Dyellen Morais. Para informações sobre a formação, converse diretamente pelo WhatsApp.</p><a class="button button-light" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20VIP.">Quero conhecer o Curso VIP <span aria-hidden="true">↗</span></a></div></div>
     </section>
-
-    <section id="duvidas" aria-labelledby="titulo-duvidas">
-      <!-- CODEX: h2 id="titulo-duvidas" (FAQ em details) -->
+    <section class="section faq" id="duvidas" aria-labelledby="titulo-duvidas">
+      <div class="wrap faq-grid"><div><p class="eyebrow">Dúvidas frequentes</p><h2 id="titulo-duvidas">Vamos <em>conversar?</em></h2><p>O primeiro contato pode ser simples.<br>Encontre o caminho para o que você procura.</p></div><div class="faq-list">
+        <details><summary>Como agendar um horário?</summary><p>Use o botão <a href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio.">Agendar horário</a> para conversar com Dyellen pelo WhatsApp.</p></details>
+        <details><summary>Quais serviços encontro aqui?</summary><p>Design e micropigmentação de sobrancelhas, serviços para lábios e olhos. Para saber mais sobre o atendimento que você procura, fale com Dyellen.</p></details>
+        <details><summary>Como saber mais sobre o Curso VIP?</summary><p>O Curso VIP é voltado à formação de profissionais. <a href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20VIP.">Peça informações sobre o curso pelo WhatsApp.</a></p></details>
+        <details><summary>Onde posso ver mais trabalhos?</summary><p>No Instagram <a href="https://www.instagram.com/dyellenmorais/">@dyellenmorais</a>, com registros de atendimentos e conteúdos do trabalho de Dyellen.</p></details>
+      </div></div>
     </section>
   </main>
-  <!-- CODEX: rodapé entra aqui -->
+  <footer class="footer"><div class="wrap footer-row"><div class="brand">Dyellen Morais<span>Micropigmentação &amp; Design</span></div><a href="https://www.instagram.com/dyellenmorais/">Instagram <span aria-hidden="true">↗</span></a><a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></div></footer>
+  <a class="floating-booking" href="https://wa.me/5528999859111?text=Oi%20Dyellen!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." aria-label="Agendar horário com Dyellen pelo WhatsApp"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 11.5a9 9 0 0 1-13.4 7.9L3 21l1.6-4.6A9 9 0 1 1 21 11.5Z"/><path d="M8 7.5c0 4 2.5 6.5 6.5 7l1.5-2-2-1-1 1c-1.4-.5-2.5-1.6-3-3l1-1-1-2Z"/></svg>Agendar horário<span aria-hidden="true">↗</span></a>
 </body>
 </html>
